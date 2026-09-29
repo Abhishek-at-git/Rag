@@ -7,7 +7,7 @@ This is an asynchronous Retrieval-Augmented Generation (RAG) system built with F
 *   **FastAPI Backend**: Exposes REST endpoints to submit chat queries and poll for results.
 *   **Asynchronous Processing**: Uses Redis Queue (RQ) to handle time-consuming LLM and retrieval tasks in the background without blocking the API.
 *   **LangChain & Qdrant**: Implements RAG by retrieving relevant documents from a Qdrant vector database and synthesizing an answer using Gemini.
-*   **Google Generative AI**: Uses `models/text-embedding-004` for embeddings and `gemini-1.5-flash` for generation.
+*   **Google Generative AI**: Uses `models/text-embedding-004` for embeddings and `gemini-3.6-flash` for generation.
 
 ## Prerequisites
 
